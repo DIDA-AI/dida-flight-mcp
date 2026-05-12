@@ -1,8 +1,8 @@
-# RollingGo Flight MCP Server
+# Dida Flight MCP Server
 
 > 🌐 **English** | [中文](README.md)
 
-RollingGo Flight Search MCP Server. Provides airport search and flight query capabilities for AI Agents and MCP clients via FastMCP.
+Dida Flight Search MCP Server. Provides airport search and flight query capabilities for AI Agents and MCP clients via FastMCP.
 
 Currently exposes 2 tools:
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Default upstream API address:
 
 ```text
-https://mcp.rollinggo.cn
+https://mcp.Dida.cn
 ```
 
 Override via environment variable:
@@ -62,7 +62,7 @@ http://127.0.0.1:8000/mcp
 ```json
 {
   "mcpServers": {
-    "RollingGo-Flight-MCP": {
+    "Dida-Flight-MCP": {
       "url": "http://127.0.0.1:8000/mcp",
       "type": "streamable_http",
       "headers": {
@@ -112,5 +112,3 @@ Upstream endpoint:
 ```text
 POST /api/mcp/flightsearch
 ```
-
-Field descriptions follow `rollinggo-readme/FLIGHT-README.md`.
