@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Default upstream API address:
 
 ```text
-https://mcp.Dida.cn
+https://mcp.rollinggo.cn
 ```
 
 Override via environment variable:
